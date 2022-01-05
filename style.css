@@ -12,6 +12,10 @@ body{
 
 }
 
+.top-banner .flex-item img{
+
+}
+
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
