@@ -1,0 +1,39 @@
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0px;
+}
+
+.flex-container{
+    display: flex;
+
+}
+
+.flex-item{
+    
+    padding-left: 100px;
+
+}
+
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 50px;
+}
+
+span{
+    color: #F88165;
+}
+
+.link-button {
+    text-decoration: none;
+    background:linear-gradient(to right, #FF9873,#FB6655 );
+    padding:10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+   
+}
