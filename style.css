@@ -6,18 +6,20 @@ body{
 
 .flex-container{
     display: flex;
-
 }
 
 .flex-item{
-    
-    padding-left: 100px;
 
 }
 
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.top-banner .flex-item{
+    padding-left: 100px;
 }
 
 h1{
@@ -37,3 +39,47 @@ span{
     font-size: 20px;
    
 }
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 100px;
+
+}
+
+.dream-big .flex-item{
+    padding-right: 100px;
+}
+
+.download-resume-button{
+    text-decoration: none;
+    background:linear-gradient(to right, #FF9873,#FB6655 );
+    padding:10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.experience{
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.experience .flex-item{
+    width: 40%;
+    box-shadow: 10px 10px 30px 5px gray;
+    padding-left: 20px;
+    margin-left: 5%;
+    
+}
+
+.experience h3{
+    color: #FB6655;
+}
+
+
+.experience h1{
+    font-size: 40px;
+}
+
